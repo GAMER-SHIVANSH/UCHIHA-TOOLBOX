@@ -1,0 +1,4 @@
+body { background: #111; color: #f00; font-family: sans-serif; }
+.toolbox-header { font-size: 2em; padding: 10px; }
+.tool-list { display: flex; flex-direction: column; gap: 10px; }
+.tool-button { color: white; background: #222; padding: 10px; text-decoration: none; }
