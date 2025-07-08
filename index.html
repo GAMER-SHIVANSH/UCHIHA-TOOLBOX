@@ -1,32 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Uchiha Toolbox</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uchiha Toolbox - The Ultimate Collection</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <div class="overlay"></div>
   <div class="container">
-    <div class="toolbox-header">UCHIHA TOOLBOX</div>
+    <div class="toolbox-header">UCHIHA TOOLBOX - THE ULTIMATE COLLECTION</div>
+    
+    <div id="tool-home">
+      
+      <div class="tool-category">🔤 Text Tools</div>
+      <div class="tool-list">
+        <a href="tools/text-case.html" class="tool-button">Text Case Converter</a>
+        <a href="tools/word-counter.html" class="tool-button">Word & Character Counter</a>
+        <a href="tools/text-encoder.html" class="tool-button">Text Encoder/Decoder</a>
+        <a href="tools/text-reverser.html" class="tool-button">Text Reverser/Flipper</a>
+        <a href="tools/ascii-art.html" class="tool-button">Text to ASCII Art</a>
+        <a href="tools/markdown-to-html.html" class="tool-button">Markdown to HTML</a>
+      </div>
 
-    <div class="tool-category">📁 Popular Tools</div>
-    <div class="tool-list">
-      <a href="tools/text-diff.html" class="tool-button">Text Diff Checker</a>
-      <a href="tools/password-strength.html" class="tool-button">Password Strength</a>
-      <a href="tools/morse-code.html" class="tool-button">Morse Code</a>
-      <!-- Add more here -->
+      <div class="tool-category">🔤 Advanced Text Tools</div>
+      <div class="tool-list">
+        <a href="tools/sort-lines.html" class="tool-button">Sort Lines A-Z</a>
+        <a href="tools/remove-duplicates.html" class="tool-button">Remove Duplicate Lines</a>
+        <a href="tools/remove-blank.html" class="tool-button">Remove Blank Lines</a>
+        <a href="tools/prefix-suffix.html" class="tool-button">Add Prefix/Suffix</a>
+        <a href="tools/find-replace.html" class="tool-button">Find & Replace Text</a>
+        <a href="tools/slug-generator.html" class="tool-button">Slug Cleaner (Advanced)</a>
+        <a href="tools/text-diff.html" class="tool-button">Text Difference Checker</a>
+        <a href="tools/palindrome-checker.html" class="tool-button">Palindrome Checker</a>
+        <a href="tools/anagram-finder.html" class="tool-button">Anagram Finder</a>
+        <a href="tools/random-string.html" class="tool-button">Random String Generator</a>
+        <a href="tools/username-gen.html" class="tool-button">Username Generator</a>
+        <a href="tools/password-strength.html" class="tool-button">Password Strength Tester</a>
+        <a href="tools/morse-code.html" class="tool-button">Morse Code Encoder/Decoder</a>
+      </div>
+
+      <div class="tool-category">📆 Date & Time Tools</div>
+      <div class="tool-list">
+        <a href="tools/date-diff.html" class="tool-button">Date Difference Calculator</a>
+        <a href="tools/epoch-converter.html" class="tool-button">Epoch ↔ Human Date Converter</a>
+        <a href="tools/current-time.html" class="tool-button">Current Date & Time Viewer</a>
+        <a href="tools/day-finder.html" class="tool-button">Day Finder</a>
+        <a href="tools/date-add-subtract.html" class="tool-button">Add/Subtract Days</a>
+      </div>
+
+      <div class="tool-category">📆 Advanced Date & Time Tools</div>
+      <div class="tool-list">
+        <a href="tools/countdown-timer.html" class="tool-button">Countdown Timer</a>
+        <a href="tools/stopwatch.html" class="tool-button">Stopwatch with Laps</a>
+        <a href="tools/world-clock.html" class="tool-button">World Clock Viewer</a>
+        <a href="tools/time-zone-converter.html" class="tool-button">Time Zone Converter</a>
+        <a href="tools/event-countdown.html" class="tool-button">Countdown to Specific Date</a>
+        <a href="tools/time-since.html" class="tool-button">Time Since Event</a>
+      </div>
+
+      <div class="tool-category">🎨 Color & Design Tools</div>
+      <div class="tool-list">
+        <a href="tools/color-converter.html" class="tool-button">Color Picker (HEX/RGB/HSL)</a>
+        <a href="tools/gradient-gen.html" class="tool-button">Gradient Generator</a>
+        <a href="tools/contrast-check.html" class="tool-button">Color Contrast Checker (WCAG)</a>
+        <a href="tools/color-palette.html" class="tool-button">Random Color Palette Generator</a>
+      </div>
+
+      <div class="tool-category">🎨 UI / Design Tools</div>
+      <div class="tool-list">
+        <a href="tools/box-shadow.html" class="tool-button">Box Shadow Generator</a>
+        <a href="tools/border-radius.html" class="tool-button">Border Radius Previewer</a>
+        <a href="tools/glassmorphism.html" class="tool-button">Glassmorphism Generator</a>
+        <a href="tools/neumorphism.html" class="tool-button">Neumorphism Generator</a>
+        <a href="tools/css-animation.html" class="tool-button">CSS Animation Previewer</a>
+        <a href="tools/button-generator.html" class="tool-button">Button Generator</a>
+        <a href="tools/box-model-visualizer.html" class="tool-button">CSS Box Model Visualizer</a>
+      </div>
+
+      <div class="tool-category">🔢 Number & Utility Tools</div>
+      <div class="tool-list">
+        <a href="tools/password-gen.html" class="tool-button">Password Generator</a>
+        <a href="tools/roman-numeral.html" class="tool-button">Roman Numeral Converter</a>
+        <a href="tools/splitter.html" class="tool-button">Simple Division Splitter</a>
+        <a href="tools/percentage-calc.html" class="tool-button">Percentage Calculator</a>
+        <a href="tools/lcm-hcf.html" class="tool-button">LCM & HCF Calculator</a>
+        <a href="tools/prime-checker.html" class="tool-button">Prime Number Checker</a>
+        <a href="tools/even-odd.html" class="tool-button">Even/Odd Number Checker</a>
+        <a href="tools/root-finder.html" class="tool-button">Square/Cube Root Finder</a>
+        <a href="tools/modulo-calc.html" class="tool-button">Modulo Calculator</a>
+        <a href="tools/multiplication-table.html" class="tool-button">Multiplication Table</a>
+        <a href="tools/factorial-calc.html" class="tool-button">Factorial Calculator</a>
+        <a href="tools/discount-calc.html" class="tool-button">Discount Calculator</a>
+        <a href="tools/num-to-words.html" class="tool-button">Number to Words</a>
+        <a href="tools/words-to-num.html" class="tool-button">Words to Number</a>
+        <a href="tools/base-converter.html" class="tool-button">Binary/Decimal/Hex Converter</a>
+      </div>
+
+      <div class="tool-category">🔢 Scientific & Conversion Tools</div>
+      <div class="tool-list">
+        <a href="tools/scientific-calc.html" class="tool-button">Scientific Calculator</a>
+        <a href="tools/file-size-converter.html" class="tool-button">File Size Converter</a>
+        <a href="tools/temp-converter.html" class="tool-button">Temperature Converter</a>
+        <a href="tools/time-converter.html" class="tool-button">Time Converter</a>
+        <a href="tools/speed-converter.html" class="tool-button">Speed Converter</a>
+        <a href="tools/area-converter.html" class="tool-button">Area Converter</a>
+        <a href="tools/volume-converter.html" class="tool-button">Volume Converter</a>
+        <a href="tools/angle-converter.html" class="tool-button">Angle Converter</a>
+      </div>
+
+      <div class="tool-category">🧰 Developer Tools</div>
+      <div class="tool-list">
+        <a href="tools/json-formatter.html" class="tool-button">JSON Validator & Formatter</a>
+        <a href="tools/json-to-csv.html" class="tool-button">JSON to CSV Converter</a>
+        <a href="tools/regex-tester.html" class="tool-button">Regex Tester + Cheat Sheet</a>
+        <a href="tools/syntax-highlighter.html" class="tool-button">Code Syntax Highlighter</a>
+        <a href="tools/base64-image.html" class="tool-button">Data URI Generator</a>
+        <a href="tools/jwt-decoder.html" class="tool-button">JWT Decoder</a>
+        <a href="tools/html-escape.html" class="tool-button">HTML Escape/Unescape</a>
+        <a href="tools/lorem-ipsum.html" class="tool-button">Lorem Ipsum Generator</a>
+        <a href="tools/meta-tag.html" class="tool-button">Meta Tag Preview Generator</a>
+        <a href="tools/utm-link.html" class="tool-button">URL Builder</a>
+        <a href="tools/favicon-gen.html" class="tool-button">Favicon Generator (PNG)</a>
+        <a href="tools/user-agent.html" class="tool-button">User Agent Viewer</a>
+        <a href="tools/ip-viewer.html" class="tool-button">IP Address Viewer</a>
+        <a href="tools/sha256-hash.html" class="tool-button">SHA256 Hash Generator</a>
+        <a href="tools/qr-generator.html" class="tool-button">QR Code Generator</a>
+        <a href="tools/qr-reader.html" class="tool-button">QR Code Reader</a>
+        <a href="tools/js-playground.html" class="tool-button">JS Playground</a>
+        <a href="tools/http-status-codes.html" class="tool-button">HTTP Status Code Reference</a>
+        <a href="tools/unit-test-gen.html" class="tool-button">Unit Test Template Generator</a>
+        <a href="tools/svg-viewer.html" class="tool-button">SVG Viewer & Editor</a>
+        <a href="tools/html-to-jsx.html" class="tool-button">HTML to JSX Converter</a>
+      </div>
+
+      <div class="tool-category">📷 Image Tools</div>
+      <div class="tool-list">
+        <a href="tools/image-converter.html" class="tool-button">Image Format Converter</a>
+        <a href="tools/image-crop.html" class="tool-button">Image Crop Tool</a>
+        <a href="tools/image-filters.html" class="tool-button">Image Filters</a>
+        <a href="tools/image-resize.html" class="tool-button">Resize Image</a>
+        <a href="tools/image-brightness.html" class="tool-button">Brightness/Contrast</a>
+        <a href="tools/image-info.html" class="tool-button">Image File Info</a>
+      </div>
+
+      <div class="tool-category">📄 PDF Tools</div>
+      <div class="tool-list">
+        <a href="tools/text-to-pdf.html" class="tool-button">Text to PDF</a>
+        <a href="tools/html-to-pdf.html" class="tool-button">Page Section to PDF</a>
+        <a href="tools/image-to-pdf.html" class="tool-button">Image to PDF</a>
+        <a href="tools/pdf-metadata.html" class="tool-button">PDF Metadata Viewer</a>
+        <a href="tools/pdf-page-counter.html" class="tool-button">PDF Page Counter</a>
+        <a href="tools/pdf-base64.html" class="tool-button">PDF to Base64</a>
+      </div>
+
+      <div class="tool-category">📋 Productivity & Education</div>
+      <div class="tool-list">
+        <a href="tools/notes-locker.html" class="tool-button">Notes Locker</a>
+        <a href="tools/daily-journal.html" class="tool-button">Daily Journal</a>
+        <a href="tools/expense-tracker.html" class="tool-button">Expense Tracker</a>
+        <a href="tools/habit-tracker.html" class="tool-button">Habit Tracker</a>
+        <a href="tools/focus-timer.html" class="tool-button">Focus Timer (Pomodoro)</a>
+        <a href="tools/mood-tracker.html" class="tool-button">Mood Tracker</a>
+        <a href="tools/typing-tester.html" class="tool-button">Typing Speed Tester</a>
+        <a href="tools/flashcards.html" class="tool-button">Flashcards Maker</a>
+        <a href="tools/mcq-quiz.html" class="tool-button">MCQ Quiz Creator</a>
+        <a href="tools/true-false-quiz.html" class="tool-button">True/False Quiz Builder</a>
+        <a href="tools/readability-score.html" class="tool-button">Essay Readability Score</a>
+        <a href="tools/sci-constants.html" class="tool-button">Scientific Constants Viewer</a>
+        <a href="tools/periodic-table.html" class="tool-button">Periodic Table Viewer</a>
+      </div>
+
+      <div class="tool-category">🎲 Fun & Games</div>
+      <div class="tool-list">
+        <a href="tools/truth-dare.html" class="tool-button">Truth or Dare</a>
+        <a href="tools/coin-toss.html" class="tool-button">Coin Toss with Animation</a>
+        <a href="tools/dice-roller.html" class="tool-button">Dice Roller with Animation</a>
+        <a href="tools/emoji-gen.html" class="tool-button">Random Emoji Generator</a>
+        <a href="tools/color-guess.html" class="tool-button">Color Guessing Game</a>
+        <a href="tools/mind-reading.html" class="tool-button">Mind Reading Trick</a>
+        <a href="tools/yes-no.html" class="tool-button">Yes/No Decision</a>
+        <a href="tools/spinner-wheel.html" class="tool-button">Spinner Wheel</a>
+        <a href="tools/2048-game.html" class="tool-button">2048 Game</a>
+        <a href="tools/tic-tac-toe.html" class="tool-button">Tic Tac Toe</a>
+        <a href="tools/memory-card.html" class="tool-button">Memory Card Game</a>
+        <a href="tools/simon-says.html" class="tool-button">Simon Says</a>
+        <a href="tools/math-puzzle.html" class="tool-button">Math Puzzle Generator</a>
+      </div>
+
+      <div class="tool-category">🎧 Audio Tools</div>
+      <div class="tool-list">
+        <a href="tools/beep-generator.html" class="tool-button">Beep Sound Generator</a>
+        <a href="tools/tone-player.html" class="tool-button">Tone Frequency Player</a>
+        <a href="tools/noise-generator.html" class="tool-button">Background Noise Generator</a>
+        <a href="tools/morse-audio.html" class="tool-button">Morse Code Audio Player</a>
+      </div>
+
+      <div class="tool-category">📁 File & Canvas Tools</div>
+      <div class="tool-list">
+        <a href="tools/text-file-reader.html" class="tool-button">Text File Reader</a>
+        <a href="tools/file-extension.html" class="tool-button">File Extension Extractor</a>
+        <a href="tools/bulk-renamer.html" class="tool-button">Bulk Filename Renamer (Preview)</a>
+        <a href="tools/signature-pad.html" class="tool-button">Signature Pad</a>
+        <a href="tools/pixel-art.html" class="tool-button">Pixel Art Maker</a>
+        <a href="tools/drawing-pad.html" class="tool-button">Basic Drawing Pad</a>
+        <a href="tools/chart-gen.html" class="tool-button">Bar/Pie Chart Generator</a>
+      </div>
+
+      <div class="tool-category">📋 Document Tools</div>
+      <div class="tool-list">
+        <a href="tools/text-cleaner.html" class="tool-button">Plain Text Cleaner</a>
+        <a href="tools/html-table.html" class="tool-button">HTML Table Generator</a>
+        <a href="tools/html-entities.html" class="tool-button">HTML Entities Encoder/Decoder</a>
+        <a href="tools/alert-box.html" class="tool-button">Custom Alert Box Generator</a>
+        <a href="tools/form-builder.html" class="tool-button">HTML Form Builder</a>
+      </div>
+
+      <div class="tool-category">🔐 Privacy & Utility</div>
+      <div class="tool-list">
+        <a href="tools/clipboard-viewer.html" class="tool-button">Clipboard Text Viewer</a>
+        <a href="tools/screen-resolution.html" class="tool-button">Screen Resolution Detector</a>
+        <a href="tools/browser-features.html" class="tool-button">Browser Feature Detector</a>
+        <a href="tools/tab-focus.html" class="tool-button">Tab Focus/Blur Detector</a>
+        <a href="tools/keystroke-speed.html" class="tool-button">Keystroke Speed Tester</a>
+        <a href="tools/input-validator.html" class="tool-button">Input Validator</a>
+        <a href="tools/localstorage-viewer.html" class="tool-button">LocalStorage Viewer</a>
+        <a href="tools/responsive-preview.html" class="tool-button">Responsive Preview Tool</a>
+      </div>
+
+      <div class="tool-category">⚔️ Original Tools</div>
+      <div class="tool-list">
+        <a href="https://discord.gg/nNfVQ9KSRJ" target="_blank" class="tool-button">💬 Join Discord</a>
+        <a href="tools/calc.html" class="tool-button">Uchiha Calculator</a>
+        <a href="tools/bmi.html" class="tool-button">BMI Calculator</a>
+        <a href="tools/age.html" class="tool-button">Age Calculator</a>
+        <a href="tools/gst.html" class="tool-button">GST Calculator</a>
+        <a href="tools/loan.html" class="tool-button">Loan EMI Calculator</a>
+        <a href="tools/currency-converter.html" class="tool-button">Live Currency Converter</a>
+        <a href="tools/todo-list.html" class="tool-button">Todo List</a>
+        <a href="tools/notepad-app.html" class="tool-button">Notepad Web App</a>
+      </div>
+      
     </div>
-
-    <div class="tool-category">📊 Converters</div>
-    <div class="tool-list">
-      <a href="tools/file-size-converter.html" class="tool-button">File Size Converter</a>
-      <a href="tools/time-converter.html" class="tool-button">Time Converter</a>
-    </div>
-
-    <!-- Add more categories as needed -->
-
   </div>
 </body>
 </html>
