@@ -1,1 +1,25 @@
-<!DOCTYPE html><html><body><h3>Text Difference Checker</h3></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Difference Checker - Uchiha Toolbox</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div class="overlay"></div>
+<div class="container">
+  <div class="toolbox-header">UCHIHA TOOLBOX</div>
+  <div class="tool-section">
+    <h3>Text Difference Checker</h3>
+    <label>Text 1</label>
+    <textarea id="textDiff1" oninput="toolFunctions.textDiff()"></textarea>
+    <label>Text 2</label>
+    <textarea id="textDiff2" oninput="toolFunctions.textDiff()"></textarea>
+    <div id="textDiffOutput" class="output-area"></div>
+    <a href="../index.html" class="back-btn">⬅ Back</a>
+  </div>
+</div>
+<script src="../js/tools.js"></script>
+</body>
+</html>
