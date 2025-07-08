@@ -1,1 +1,28 @@
-<!DOCTYPE html><html><body><h3>Morse Code Tool</h3></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Morse Code Encoder/Decoder - Uchiha Toolbox</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div class="overlay"></div>
+<div class="container">
+  <div class="toolbox-header">UCHIHA TOOLBOX</div>
+  <div class="tool-section">
+    <h3>Morse Code Encoder/Decoder</h3>
+    <label>Text</label>
+    <textarea id="morseInput"></textarea>
+    <div class="button-group">
+      <button onclick="toolFunctions.morseCode('en')">To Morse</button>
+      <button onclick="toolFunctions.morseCode('de')">From Morse</button>
+    </div>
+    <label>Result</label>
+    <textarea id="morseOutput" readonly></textarea>
+    <a href="../index.html" class="back-btn">⬅ Back</a>
+  </div>
+</div>
+<script src="../js/tools.js"></script>
+</body>
+</html>
